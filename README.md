@@ -70,19 +70,6 @@ Passionate **B.Tech CSE student** with expertise in building robust web applicat
 - Automated course enrollment workflows saving 15+ admin hours weekly
 - Designed responsive UI with **90+ Lighthouse score** for accessibility
 
-```python
-# Sample authentication snippet
-def generate_otp(user):
-    otp = random.randint(100000, 999999)
-    cache.set(f'otp_{user.email}', otp, timeout=300)
-    send_mail(
-        'Your Login OTP',
-        f'Your OTP is: {otp}',
-        settings.DEFAULT_FROM_EMAIL,
-        [user.email],
-        fail_silently=False
-    )
-```
 
 ---
 
